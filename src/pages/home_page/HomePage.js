@@ -4,12 +4,9 @@ import Particle from "../../Particle";
 import Typing from "./Typing";
 import Tilt from "react-parallax-tilt";
 import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
-import Fade from "react-reveal/Fade";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn, FaFacebookF, FaGoogle } from "react-icons/fa";
-import Certification from "../../components/certificate/Certification";
+import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 import Projects from "../../components/projects/Projects";
-import Contactus from "../../components/contactus/Contactus";
 
 export default function Home() {
   return (
@@ -31,7 +28,7 @@ export default function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> MD MAFUJUL HASAN</strong>
+                <strong className="main-name"> Lubesh Kumar Sharma</strong>
               </h1>
 
               <div className="typing-homeclass">
@@ -41,7 +38,7 @@ export default function Home() {
                 <ul className="homeaboutsociallinks">
                   <li className="socialicons">
                     <a
-                      href="https://github.com/MD-MAFUJUL-HASAN"
+                      href="https://github.com/Lubesh-Sharma"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour  homesocialicons"
@@ -51,7 +48,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.linkedin.com/in/md-mafujul-hasan/"
+                      href="https://www.linkedin.com/in/lubesh/"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour  homesocialicons"
@@ -61,7 +58,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.instagram.com/_md_mafujul_hasan_/"
+                      href="https://www.instagram.com/lubeshsharma/"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
@@ -71,22 +68,12 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.facebook.com/mh.tonmoy.13"
+                      href="https://www.facebook.com/profile.php?id=100087298700344"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
                     >
                       <FaFacebookF />
-                    </a>
-                  </li>
-                  <li className="socialicons">
-                    <a
-                      href="mailto:mdtonmoy13.mt@gmail.com/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="iconcolour homesocialicons"
-                    >
-                      <FaGoogle />
                     </a>
                   </li>
                 </ul>
@@ -95,13 +82,11 @@ export default function Home() {
             <Col md={4} style={{ paddingBottom: 20 }}>
               <div className="img-home-main">
                 <Tilt>
-                  <Fade cascade>
-                    <img
-                      src="./profile.png"
-                      alt="home pic"
-                      className="img-fluid"
-                    />
-                  </Fade>
+                  <img
+                    src="./my_facebook.jpg"
+                    alt="home pic"
+                    className="img-fluid"
+                  />
                 </Tilt>
               </div>
             </Col>
@@ -109,9 +94,7 @@ export default function Home() {
         </Container>
       </Container>
       <AboutmeContainer />
-      <Certification />
       <Projects />
-      <Contactus />
     </section>
   );
 }

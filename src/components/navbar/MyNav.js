@@ -35,7 +35,7 @@ export default function MyNav() {
       <Container>
         <Navbar.Brand href="/">
           <div className="d-flex flex-row justify-content-between">
-            <img src="./profile.png" className="img-fluid logo" alt="brand" />
+            <img src="./my_facebook.jpg" className="img-fluid logo" alt="brand" />
             <h5
               id="navhead"
               style={{
@@ -44,7 +44,7 @@ export default function MyNav() {
                 color: "#fbd9ad",
               }}
             >
-              MD MAFUJUL HASAN
+              Lubesh Kumar Sharma
             </h5>
           </div>
         </Navbar.Brand>
@@ -95,23 +95,12 @@ export default function MyNav() {
                 to="/certificatepage"
                 onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Certifications
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/blogs"
-                onClick={() => updateExpanded(false)}
-              >
-                <FaBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
+                href="https://github.com/Lubesh-Sharma/Personal-Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >

@@ -5,7 +5,7 @@ import Particle from "../../Particle";
 import pdf from "../../assets/MD_MAFUJUL_HASAN.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import Zoom from "react-reveal/Zoom";
+// import Zoom from "react-reveal/Zoom";
 import React, { useState, useEffect } from "react";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
@@ -30,9 +30,9 @@ function Resume() {
               width="100%"
               style={{ backgroundColor: "#fbd9ad" }}
             >
-              <Zoom left cascade>
+              {/* <Zoom left cascade> */}
                 <h1 style={{ color: "rgb(134 61 176)" }}>RESUME</h1>
-              </Zoom>
+              {/* </Zoom> */}
             </div>
             <div fluid className="certificate-section" id="about">
               <div className="d-flex justify-content-center mt-4">

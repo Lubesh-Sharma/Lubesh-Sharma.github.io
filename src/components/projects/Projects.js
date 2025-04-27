@@ -1,11 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Zoom from "react-reveal/Zoom";
-import { Fade } from "react-reveal";
-import nyc from "../../images/nyc.png";
-import ci from "../../images/onboarding.png";
-import hd from "../../images/hd.png";
-import pp from "../../images/portfolio.png";
+import bus from "../../images/bus.jpeg";
+import link from "../../images/link.png";
+import gp from "../../images/gp.jpeg";
+import ticket from "../../images/ticket.jpg";
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
@@ -20,256 +18,230 @@ export default function Projects() {
               md={12}
               className="certificate-description d-flex justify-content-start"
             >
-              <Zoom left cascade>
-                <h1 className="aboutme-heading">Projects</h1>
-              </Zoom>
+              <h1 className="aboutme-heading">Projects</h1>
             </Col>
             <Col md={3}>
-              <Fade bottom>
-                <div
-                  key={1}
-                  className="singleProject"
-                  style={{
-                    backgroundColor: "rgb(142 70 186 / 31%)",
-                    border: "1px solid",
-                  }}
-                >
-                  <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      New Year CountDown
-                    </h5>
-                    <img src={nyc} alt={nyc} />
-                    <div className="project--showcaseBtn">
-                      <a
-                        href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/New-Year-Countdown"
-                        }
-                        target="_blank"
-                        rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
-                      >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <h6>
-                    <p
-                      className="project--desc"
-                      style={{
-                        background: "#fbd9ad",
-                        color: "#b061df",
-                        fontWeight: 600,
-                      }}
+              <div
+                className="singleProject"
+                style={{
+                  backgroundColor: "rgb(142 70 186 / 31%)",
+                  border: "1px solid",
+                }}
+              >
+                <div className="projectContent">
+                  <h5 style={{ color: "#fbd9ad" }}>
+                    KGP BUS TRACKING SYSTEM
+                  </h5>
+                  <img src={bus} alt="KGP BUS TRACKING SYSTEM" />
+                  <div className="project--showcaseBtn">
+                    <a
+                      href="https://github.com/Lubesh-Sharma/KGP_BUS_FRONTEND"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="iconBtn"
+                      aria-labelledby="code"
                     >
-                      The New Year Countdown Project is more than just a
-                      celebration; it's a testament to the human spirit and our
-                      shared aspirations for a brighter future. So, mark your
-                      calendars and get ready to be part of this global
-                      extravaganza as we count down to a new year filled with
-                      endless possibilities.
-                    </p>
-                  </h6>
-                  <div
-                    className="project--lang"
+                      <FaCode id="code" className="icon" aria-label="Frontend Code" />
+                    </a>
+                    <a
+                      href="https://github.com/Lubesh-Sharma/KGP_BUS_Backend"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="iconBtn"
+                      aria-labelledby="code"
+                    >
+                      <FaCode id="code" className="icon" aria-label="Backend Code" />
+                    </a>
+                  </div>
+                </div>
+                <h6>
+                  <p
+                    className="project--desc"
                     style={{
                       background: "#fbd9ad",
                       color: "#b061df",
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, JavaScript
-                  </div>
-                </div>
-              </Fade>
-            </Col>
-            <Col md={3}>
-              <Fade bottom>
+                    Real-time bus tracking system for campus buses, providing live location updates and route information for users.
+                  </p>
+                </h6>
                 <div
-                  key={1}
-                  className="singleProject"
+                  className="project--lang"
                   style={{
-                    backgroundColor: "rgb(142 70 186 / 31%)",
-                    border: "1px solid",
+                    background: "#fbd9ad",
+                    color: "#b061df",
+                    fontWeight: 600,
                   }}
                 >
-                  <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Heart Disease Prediction
-                    </h5>
-                    <img src={hd} alt={hd} />
-                    <div className="project--showcaseBtn">
-                      <a
-                        href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Machine_Learning/tree/main/Heart%20Disease%20Prediction"
-                        }
-                        target="_blank"
-                        rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
-                      >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <h6>
-                    <p
-                      className="project--desc"
-                      style={{
-                        background: "#fbd9ad",
-                        color: "#b061df",
-                        fontWeight: 600,
-                      }}
+                  React, Node.js, Express, PSQL, Leaflet
+                </div>
+              </div>
+            </Col>
+            <Col md={3}>
+              <div
+                className="singleProject"
+                style={{
+                  backgroundColor: "rgb(142 70 186 / 31%)",
+                  border: "1px solid",
+                }}
+              >
+                <div className="projectContent">
+                  <h5 style={{ color: "#fbd9ad" }}>
+                    URL SHORTENER
+                  </h5>
+                  <img src={link} alt="URL SHORTENER" />
+                  <div className="project--showcaseBtn">
+                    <a
+                      href="https://github.com/Lubesh-Sharma/url_handler"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="iconBtn"
+                      aria-labelledby="code"
                     >
-                      Use of AI and Machine Learning: Artificial intelligence
-                      and machine learning are already being used in healthcare
-                      to help predict heart disease. In the future, these
-                      technologies could become more advanced, enabling more
-                      accurate predictions of heart disease risk.
-                    </p>
-                  </h6>
-                  <div
-                    className="project--lang"
+                      <FaCode id="code" className="icon" aria-label="Code" />
+                    </a>
+                  </div>
+                </div>
+                <h6>
+                  <p
+                    className="project--desc"
                     style={{
                       background: "#fbd9ad",
                       color: "#b061df",
                       fontWeight: 600,
                     }}
                   >
-                    Pandas, Matplotlib, Scikit-Learn
-                  </div>
-                </div>
-              </Fade>
-            </Col>
-            <Col md={3}>
-              <Fade bottom>
+                    A simple and efficient URL shortener service to generate and manage short links for long URLs.
+                  </p>
+                </h6>
                 <div
-                  key={1}
-                  className="singleProject"
+                  className="project--lang"
                   style={{
-                    backgroundColor: "rgb(142 70 186 / 31%)",
-                    border: "1px solid",
+                    background: "#fbd9ad",
+                    color: "#b061df",
+                    fontWeight: 600,
                   }}
                 >
-                  <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Online Payroll Management System
-                    </h5>
-                    <img src={ci} alt={ci} />
-                    <div className="project--showcaseBtn">
-                      <a
-                        href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System"
-                        }
-                        target="_blank"
-                        rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
-                      >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <h6>
-                    <p
-                      className="project--desc"
-                      style={{
-                        background: "#fbd9ad",
-                        color: "#b061df",
-                        fontWeight: 600,
-                      }}
+                  React, Node.js, Express, MongoDB
+                </div>
+              </div>
+            </Col>
+            <Col md={3}>
+              <div
+                className="singleProject"
+                style={{
+                  backgroundColor: "rgb(142 70 186 / 31%)",
+                  border: "1px solid",
+                }}
+              >
+                <div className="projectContent">
+                  <h5 style={{ color: "#fbd9ad" }}>
+                    GRAM PANCHAYAT MANAGEMENT SYSTEM
+                  </h5>
+                  <img src={gp} alt="GRAM PANCHAYAT MANAGEMENT SYSTEM" />
+                  <div className="project--showcaseBtn">
+                    <a
+                      href="https://github.com/Lubesh-Sharma/KGP_BUS_FRONTEND"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="iconBtn"
+                      aria-labelledby="code"
                     >
-                      A Payroll management System with feature like generate
-                      payslip & reports. It manages salaries, leaves, branches,
-                      employees, designations, shifts, holidays and employee
-                      attendance. It has chat application so internal employees
-                      can use that feature.
-                    </p>
-                  </h6>
-                  <div
-                    className="project--lang"
+                      <FaCode id="code" className="icon" aria-label="Frontend Code" />
+                    </a>
+                    <a
+                      href="https://github.com/Lubesh-Sharma/KGP_BUS_Backend"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="iconBtn"
+                      aria-labelledby="code"
+                    >
+                      <FaCode id="code" className="icon" aria-label="Backend Code" />
+                    </a>
+                  </div>
+                </div>
+                <h6>
+                  <p
+                    className="project--desc"
                     style={{
                       background: "#fbd9ad",
                       color: "#b061df",
                       fontWeight: 600,
                     }}
                   >
-                    CSS, JavaScript, PHP, SCSS
-                  </div>
-                </div>
-              </Fade>
-            </Col>
-            <Col md={3}>
-              <Fade bottom>
+                    A management system for Gram Panchayat to handle records, services, and citizen requests efficiently.
+                  </p>
+                </h6>
                 <div
-                  key={1}
-                  className="singleProject"
+                  className="project--lang"
                   style={{
-                    backgroundColor: "rgb(142 70 186 / 31%)",
-                    border: "1px solid",
+                    background: "#fbd9ad",
+                    color: "#b061df",
+                    fontWeight: 600,
                   }}
                 >
-                  <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Personal Portfolio
-                    </h5>
-                    <img src={pp} alt={pp} />
-                    <div className="project--showcaseBtn">
-                      <a
-                        href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
-                        }
-                        target="_blank"
-                        rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
-                      >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <h6>
-                    <p
-                      className="project--desc"
-                      style={{
-                        background: "#fbd9ad",
-                        color: "#b061df",
-                        fontWeight: 600,
-                      }}
+                  Python, PhP, PSQL
+                </div>
+              </div>
+            </Col>
+            <Col md={3}>
+              <div
+                className="singleProject"
+                style={{
+                  backgroundColor: "rgb(142 70 186 / 31%)",
+                  border: "1px solid",
+                }}
+              >
+                <div className="projectContent">
+                  <h5 style={{ color: "#fbd9ad" }}>
+                    Ticket MANAGEMENT SYSTEM
+                  </h5>
+                  <img src={ticket} alt="Ticket MANAGEMENT SYSTEM" />
+                  <div className="project--showcaseBtn">
+                    <a
+                      href="https://github.com/Lubesh-Sharma/KGP_BUS_FRONTEND"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="iconBtn"
+                      aria-labelledby="code"
                     >
-                      Welcome to my personal portfolio. Explore my work, skills,
-                      and achievements in a concise and visually appealing
-                      format. Get a glimpse of my expertise and creativity.
-                    </p>
-                  </h6>
-                  <div
-                    className="project--lang"
+                      <FaCode id="code" className="icon" aria-label="Frontend Code" />
+                    </a>
+                    <a
+                      href="https://github.com/Lubesh-Sharma/KGP_BUS_Backend"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="iconBtn"
+                      aria-labelledby="code"
+                    >
+                      <FaCode id="code" className="icon" aria-label="Backend Code" />
+                    </a>
+                  </div>
+                </div>
+                <h6>
+                  <p
+                    className="project--desc"
                     style={{
                       background: "#fbd9ad",
                       color: "#b061df",
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, SCSS, React, JavaScript
-                  </div>
+                    A ticket management system for handling support requests, tracking issues, and managing resolutions.
+                  </p>
+                </h6>
+                <div
+                  className="project--lang"
+                  style={{
+                    background: "#fbd9ad",
+                    color: "#b061df",
+                    fontWeight: 600,
+                  }}
+                >
+                  EJS, HTML, CSS, JavaScript
                 </div>
-              </Fade>
+              </div>
             </Col>
           </Row>
           <div className="blog--viewAll">

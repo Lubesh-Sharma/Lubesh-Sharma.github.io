@@ -17,7 +17,6 @@ import {
   DiMysql,
   DiNodejs,
 } from "react-icons/di";
-import Flip from "react-reveal/Flip";
 
 function TechnicalJourney() {
   return (
@@ -25,9 +24,6 @@ function TechnicalJourney() {
       <div>
         <Link className="btn btn-primary m-1" to="/educationjourney">
           Educational Journey
-        </Link>
-        <Link className="btn btn-primary m-1" to="/experiencejourney">
-          Experience Journey
         </Link>
         <Link className="btn btn-primary m-1" to="/technicaljourney">
           Technical Journey
@@ -37,9 +33,7 @@ function TechnicalJourney() {
         </Link>
       </div>
       <div className="mt-5">
-        <Flip top cascade>
-          <h1>Technical Journey</h1>
-        </Flip>
+        <h1>Technical Journey</h1>
       </div>
       <VerticalTimeline>
         <VerticalTimelineElement
@@ -65,16 +59,6 @@ function TechnicalJourney() {
           <h3 className="vertical-timeline-element-title">
             C++ PROGRAMMING LANGUAGE
           </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<DiJava />}
-        >
-          <h3 className="vertical-timeline-element-title">JAVA</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -134,7 +118,7 @@ function TechnicalJourney() {
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<DiMysql />}
         >
-          <h3 className="vertical-timeline-element-title">MySQL</h3>
+          <h3 className="vertical-timeline-element-title">PSQL</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"

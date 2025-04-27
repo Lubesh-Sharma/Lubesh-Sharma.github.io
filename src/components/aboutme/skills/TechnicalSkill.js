@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
-import Tada from "react-reveal/Tada";
 
 export default function TechnicalSkill() {
   return (
@@ -10,16 +9,11 @@ export default function TechnicalSkill() {
         <Link className="btn btn-primary me-3" to="/technicalSkill">
           Technical Skill
         </Link>
-        <Link className="btn btn-primary me-3" to="/personalskill">
-          Personal Skill
-        </Link>
         <Link className="btn btn-primary " to="/toolkit">
           Toolkit
         </Link>
       </div>
-      <Tada>
-        <h1 className="mt-4">Technical Skills</h1>
-      </Tada>
+      <h1 className="mt-4">Technical Skills</h1>
       <div className="mt-5">
         <Container>
           <Row className="g-5">
@@ -27,17 +21,17 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#fe3e57", fontWeight: 700 }}
               >
-                75%
+                80%
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                 <div class="progress">
                   <div
                     role={"progressbar"}
                     id={"com"}
-                    aria-valuenow={"85"}
+                    aria-valuenow={"80"}
                     aria-valuemin={"0"}
                     aria-valuemax={"100"}
-                    style={{ width: "85%" }}
+                    style={{ width: "80%" }}
                   ></div>
                 </div>
                 <h2
@@ -56,17 +50,17 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#54faae", fontWeight: 700 }}
               >
-                75%
+                80%
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                 <div class="progress">
                   <div
                     role={"progressbar"}
                     id={"pm"}
-                    aria-valuenow={"85"}
+                    aria-valuenow={"80"}
                     aria-valuemin={"0"}
                     aria-valuemax={"100"}
-                    style={{ width: "85%" }}
+                    style={{ width: "80%" }}
                   ></div>
                 </div>
                 <h2
@@ -85,17 +79,17 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#39c4ff", fontWeight: 700 }}
               >
-                80%
+                60%
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                 <div class="progress">
                   <div
                     role={"progressbar"}
                     id={"cr"}
-                    aria-valuenow={"90"}
+                    aria-valuenow={"60"}
                     aria-valuemin={"0"}
                     aria-valuemax={"100"}
-                    style={{ width: "90%" }}
+                    style={{ width: "60%" }}
                   ></div>
                 </div>
                 <h2
@@ -164,7 +158,7 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  MySQL
+                  PSQL
                 </h2>
               </div>
             </Col>
@@ -230,17 +224,17 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#fe3e57", fontWeight: 700 }}
               >
-                75%
+                70%
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                 <div class="progress">
                   <div
                     role={"progressbar"}
                     id={"com"}
-                    aria-valuenow={"85"}
+                    aria-valuenow={"70"}
                     aria-valuemin={"0"}
                     aria-valuemax={"100"}
-                    style={{ width: "85%" }}
+                    style={{ width: "70%" }}
                   ></div>
                 </div>
                 <h2
@@ -252,35 +246,6 @@ export default function TechnicalSkill() {
                   }}
                 >
                   PHP
-                </h2>
-              </div>
-            </Col>
-            <Col md={4}>
-              <h1
-                style={{ fontSize: "100px", color: "#54faae", fontWeight: 700 }}
-              >
-                75%
-              </h1>
-              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"pm"}
-                    aria-valuenow={"85"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "85%" }}
-                  ></div>
-                </div>
-                <h2
-                  style={{
-                    color: "#54faae",
-                    fontSize: "25px",
-                    marginTop: "13px",
-                    fontWeight: 700,
-                  }}
-                >
-                  JAVA
                 </h2>
               </div>
             </Col>
