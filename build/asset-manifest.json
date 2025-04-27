@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.62b8d1be.css",
+    "main.js": "/static/js/main.ea608ab4.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/MD_MAFUJUL_HASAN.pdf": "/static/media/MD_MAFUJUL_HASAN.10d7c78d8543be1dee23.pdf",
+    "static/media/Vs.png": "/static/media/Vs.19edc3fbac1c451f289d.png",
+    "static/media/pg.png": "/static/media/pg.9f8f5cd98ce5726b002f.png",
+    "static/media/github.png": "/static/media/github.345dc4a21070f9083ca7.png",
+    "static/media/ticket.jpg": "/static/media/ticket.b3d0b05742977ed0c1ef.jpg",
+    "static/media/pre.svg": "/static/media/pre.e4c81c26304bc309eb55.svg",
+    "static/media/h3.jpg": "/static/media/h3.dc52d5d40a40b13154b0.jpg",
+    "static/media/gp.jpeg": "/static/media/gp.1898411726efd271cbd1.jpeg",
+    "static/media/link.png": "/static/media/link.c1c5346def5460b62161.png",
+    "static/media/bus.jpeg": "/static/media/bus.3a34f7fd00298dc26573.jpeg",
+    "index.html": "/index.html",
+    "main.62b8d1be.css.map": "/static/css/main.62b8d1be.css.map",
+    "main.ea608ab4.js.map": "/static/js/main.ea608ab4.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62b8d1be.css",
+    "static/js/main.ea608ab4.js"
+  ]
+}
