@@ -1,75 +1,59 @@
-![Portfolio](https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio/blob/main/src/images/portfolio.png)
+### Hi there 👋 I'm Lubesh Sharma
 
-# Getting Started with Create React App
+🎓 I’m a **4th Year CSE Undergraduate** at **IIT Kharagpur**  
+🌱 I’m currently learning (and working on projects in) **Artificial Intelligence**, **Machine Learning**,**Computer Vision**, **Robotics**, and **Full Stack Web Development**  
+📬 Reach me at: [lubeshkumarsharma@gmail.com](mailto:lubeshkumarsharma@gmail.com)  
+😄 Pronouns: He/Him
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/405ac925-c23d-4079-985f-f0b7ceb21ffb/deploy-status)](https://app.netlify.com/sites/tonmoysu/deploys)
-## [Portfolio Live on Netlify and Vercel app🎯](https://tonmoysu.netlify.app/)
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/badge/Branch-CSE-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/IIT-Kharagpur-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Tech-WebDev/AI/ML/CV-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Tools-React/TensorFlow/Linux-green?style=for-the-badge" />
+  <img src="https://komarev.com/ghpvc/?username=Lubesh-Sharma&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
+</p>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Skills
+- **Languages:** Python, JavaScript, C++, HTML, CSS
+- **Frameworks & Libraries:** React, Node.js, Express, TensorFlow, PyTorch, OpenCV
+- **Tools & Platforms:** Git, Docker, Linux
+- **Areas of Interest:** Full Stack Development, AI/ML, Computer Vision, Robotics
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🌐 My Projects
+KGP_BUS_TRACKING_SYSTEM => [Visit Website](https://kgp-bus-frontend.vercel.app/)
+  Frontend => https://github.com/Lubesh-Sharma/KGP_BUS_FRONTEND
+  Backend => https://github.com/Lubesh-Sharma/KGP_BUS_Backend
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+URL_SHORTENER => https://github.com/Lubesh-Sharma/url_handler
 
-### `npm test`
+GRAM_PANCHAYAT_MANAGEMENT_SYSTEM =>
+  Frontend => https://github.com/Lubesh-Sharma/KGP_BUS_FRONTEND
+  Backend => https://github.com/Lubesh-Sharma/KGP_BUS_Backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ticket_MANAGEMENT_SYSTEM =>
+  Frontend => https://github.com/Lubesh-Sharma/KGP_BUS_FRONTEND
+  Backend => https://github.com/Lubesh-Sharma/KGP_BUS_Backend
+---
 
-### `npm run build`
+## 📈 GitHub Stats
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Lubesh-Sharma&show_icons=true&theme=radical" alt="Lubesh's GitHub Stats" />
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lubesh-Sharma&theme=radical" alt="GitHub Streak" />
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 💬 Motto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> "Strive for progress, not perfection."
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
