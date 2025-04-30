@@ -82,11 +82,13 @@ export default function Home() {
             <Col md={4} style={{ paddingBottom: 20 }}>
               <div className="img-home-main">
                 <Tilt>
-                  <img
-                    src="./my_facebook.jpg"
-                    alt="home pic"
-                    className="img-fluid"
-                  />
+                  <div className="oval-photo">
+                    <img
+                      src="./my_facebook.jpg"
+                      alt="home pic"
+                      className="img-fluid"
+                    />
+                  </div>
                 </Tilt>
               </div>
             </Col>

@@ -44,7 +44,22 @@ export default function Ranking() {
             >
               <SiCodeforces />
             </a>
-          </Col>{" "}
+          </Col>
+          <Col md={3}>
+            <a
+              href="https://atcoder.jp/users/Lubesh"
+              target="_blank"
+              rel="noreferrer"
+              className="icon-colour  home-social-icons"
+            >
+              <img
+                src="https://img.icons8.com/ios-filled/50/000000/at-sign.png"
+                alt="AtCoder"
+                style={{ width: 32, height: 32, borderRadius: "50%" }}
+              />
+              <span style={{ marginLeft: 8 }}>AtCoder</span>
+            </a>
+          </Col>
         </Row>
       </Container>
     </div>
