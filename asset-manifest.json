@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c6e1a783.css",
-    "main.js": "/static/js/main.2c89fb65.js",
+    "main.js": "/static/js/main.df524255.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/MD_MAFUJUL_HASAN.pdf": "/static/media/MD_MAFUJUL_HASAN.10d7c78d8543be1dee23.pdf",
@@ -9,6 +9,7 @@
     "static/media/pg.png": "/static/media/pg.9f8f5cd98ce5726b002f.png",
     "static/media/github.png": "/static/media/github.345dc4a21070f9083ca7.png",
     "static/media/ticket.jpg": "/static/media/ticket.b3d0b05742977ed0c1ef.jpg",
+    "static/media/atcoder.png": "/static/media/atcoder.8bf5ab0e33e104a5a8a0.png",
     "static/media/pre.svg": "/static/media/pre.e4c81c26304bc309eb55.svg",
     "static/media/h3.jpg": "/static/media/h3.dc52d5d40a40b13154b0.jpg",
     "static/media/gp.jpeg": "/static/media/gp.1898411726efd271cbd1.jpeg",
@@ -16,12 +17,12 @@
     "static/media/bus.jpeg": "/static/media/bus.3a34f7fd00298dc26573.jpeg",
     "index.html": "/index.html",
     "main.c6e1a783.css.map": "/static/css/main.c6e1a783.css.map",
-    "main.2c89fb65.js.map": "/static/js/main.2c89fb65.js.map",
+    "main.df524255.js.map": "/static/js/main.df524255.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6e1a783.css",
-    "static/js/main.2c89fb65.js"
+    "static/js/main.df524255.js"
   ]
 }
