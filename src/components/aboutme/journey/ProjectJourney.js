@@ -36,7 +36,9 @@ function ProjectJourney() {
           icon={<CodeIcon />}
         >
           <h3 className="vertical-timeline-element-title" style={{ wordBreak: "break-word", whiteSpace: "pre-line" }}>
-            Ticket_MANAGEMENT_SYSTEM
+            <a href="https://auditorium-management.onrender.com" target="_blank" rel="noreferrer" style={{ color: "#fbd9ad" }}>
+              Ticket MANAGEMENT SYSTEM
+            </a>
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -47,7 +49,9 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title" style={{ wordBreak: "break-word", whiteSpace: "pre-line" }}>
-            URL_SHORTENER
+            <a href="https://url-frontend-six.vercel.app/" target="_blank" rel="noreferrer" style={{ color: "#fbd9ad" }}>
+              URL SHORTENER
+            </a>
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -58,7 +62,9 @@ function ProjectJourney() {
           icon={<HtmlIcon />}
         >
           <h3 className="vertical-timeline-element-title" style={{ wordBreak: "break-word", whiteSpace: "pre-line" }}>
-            GRAM_PANCHAYAT_MANAGEMENT_SYSTEM
+            <a href="https://gram-panchayat-vfvm.onrender.com/landing" target="_blank" rel="noreferrer" style={{ color: "#fbd9ad" }}>
+              GRAM PANCHAYAT MANAGEMENT SYSTEM
+            </a>
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -69,7 +75,9 @@ function ProjectJourney() {
           icon={<CssIcon />}
         >
           <h3 className="vertical-timeline-element-title" style={{ wordBreak: "break-word", whiteSpace: "pre-line" }}>
-            KGP_BUS_TRACKING_SYSTEM
+            <a href="https://kgp-bus-frontend.vercel.app/" target="_blank" rel="noreferrer" style={{ color: "#fbd9ad" }}>
+              KGP BUS TRACKING SYSTEM
+            </a>
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
