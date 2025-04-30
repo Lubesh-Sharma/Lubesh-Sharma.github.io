@@ -1,13 +1,12 @@
 import React from "react";
-import { FaHackerrank } from "react-icons/fa";
 import {
   SiLeetcode,
-  SiHackerearth,
   SiCodechef,
   SiCodeforces,
 } from "react-icons/si";
 import { Container, Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
+import atcoder from "../../../images/atcoder.png";
 
 export default function Ranking() {
   return (
@@ -50,14 +49,16 @@ export default function Ranking() {
               href="https://atcoder.jp/users/Lubesh"
               target="_blank"
               rel="noreferrer"
-              className="icon-colour  home-social-icons"
+              className="icon-colour home-social-icons"
             >
               <img
-                src="https://img.icons8.com/ios-filled/50/000000/at-sign.png"
+                src={atcoder}
                 alt="AtCoder"
-                style={{ width: 32, height: 32, borderRadius: "50%" }}
+                style={{
+                  width: "85%",
+                  height: "85%"
+                }}
               />
-              <span style={{ marginLeft: 8 }}>AtCoder</span>
             </a>
           </Col>
         </Row>
