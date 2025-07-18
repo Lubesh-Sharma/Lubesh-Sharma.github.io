@@ -8,12 +8,14 @@ function Typing() {
                 strings: [
                     "Developer",
                     "Software Engineer",
+                    "Systems Engineer",
                     "Frontend Developer",
                     "Backend Developer",
                 ],
                 autoStart: true,
                 loop: true,
                 deleteSpeed: 50,
+                delay: 80,
             }}
         />
     );

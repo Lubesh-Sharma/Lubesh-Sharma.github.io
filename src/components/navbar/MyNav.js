@@ -100,7 +100,7 @@ export default function MyNav() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/Lubesh-Sharma/Personal-Portfolio"
+                href="https://lubesh-sharma.github.io"
                 target="_blank"
                 className="fork-btn-inner"
               >
